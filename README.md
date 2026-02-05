@@ -4,23 +4,36 @@ Decentralized gaming 12ta
 ==============Environmental installation steps==============
 
 1. Install Node.js v22.15.1 version
+
   node --version
+  
   npm --version
+  
 (Hint version number, proving that you have successfully installed)
+
 2. Load oracle dependencies
+
   npm install
+  
 3. Enter the web desktop directory to install serve (for local client startup)
+
   npm i serve
 
 ==============Startup steps==============
 
 1. Activate the oracle
-  node index.js  
-3. Run in the web desktop directory
+
+  node index.js 
+  
+2. Run in the web desktop directory
+
    npx serve -p 3001
-4. Launch the client and input in Chrome browser
+   
+3. Launch the client and input in Chrome browser
+
    http://localhost:3001/
-5.Create a key on the login page
+   
+4.Create a key on the login page
  
 
 
