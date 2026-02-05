@@ -5,6 +5,8 @@ Decentralized gaming 12ta
 
 1. Install Node.js v22.15.1 version
 
+    https://nodejs.org/en/download
+
     node --version
   
     npm --version
