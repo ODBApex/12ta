@@ -1,0 +1,25 @@
+Please manually install Node.js v22.15.1 or higher version
+
+node --version
+npm --version
+(Hint version number, proving that you have successfully installed)
+
+run1
+1. Install the oracle.bat
+
+run2
+2.Install client startup.bat
+
+start1
+11.start the oracle.bat
+
+start2
+22.Start webServer.bat
+
+
+Start Game
+Enter in the browser http://localhost:3001/
+
+
+The above operation is on Windows 10 system
+The above operation is on Windows 10 system

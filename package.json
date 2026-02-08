@@ -1,0 +1,27 @@
+{
+  "name": "tGameServer-.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "doc": "tsrpc-cli doc",
+    "test": "mocha test/**/*.test.ts",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^15.14.9",
+    "mocha": "^9.2.2",
+    "onchange": "^7.1.0",
+    "ts-node": "^10.9.2",
+    "tsrpc-cli": "^2.4.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "base-58": "^0.0.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "starkbank-ecdsa": "^1.1.5",
+    "tsrpc": "^3.4.18"
+  }
+}
