@@ -161,6 +161,12 @@ class lcBlockInfo {
             else if (dstData == objStockholder.stockholderRenewal) {
                 updateData.push(addBlockJson.data[i]);
             }
+            else if (dstData == objStockholder.stockholderSend) {
+                updateData.push(addBlockJson.data[i]);
+            }
+            else if (dstData == objStockholder.stockholderMake) {
+                updateData.push(addBlockJson.data[i]);
+            }
             else if (dstData == objStockholder.stockholderHero) {
                 updateData.push(addBlockJson.data[i]);
             }
@@ -173,13 +179,13 @@ class lcBlockInfo {
             else if (dstData == objStockholder.stockholderUpOperate) {
                 updateData.push(addBlockJson.data[i]);
             }
-            else if (dstData == objStockholder.stockholderFight) {
-                updateData.push(addBlockJson.data[i]);
-            }
             else if (dstData == objStockholder.stockholderTeam) {
                 updateData.push(addBlockJson.data[i]);
             }
-            else if (dstData == objStockholder.stockholderCreate) {
+            else if (dstData == objStockholder.stockholderJoinWar) {
+                updateData.push(addBlockJson.data[i]);
+            }
+            else if (dstData == objStockholder.stockholderFight) {
                 updateData.push(addBlockJson.data[i]);
             }
         }
